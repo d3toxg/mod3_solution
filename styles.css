@@ -1,0 +1,95 @@
+h1 {
+	font-weight: bold;
+	color: black;
+
+}
+#header-nav {
+  background-color: #ffffaa;
+  border-radius: 0;
+  border: 0;
+  text-decoration: none;
+  padding-bottom: 10px;
+
+}
+.navbar-header div {
+	color: red;
+	text-decoration-style: bold;
+	font-size: 30px;
+}
+.navbar-brand {
+	
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -10px;	
+}
+.text-center h1 {
+	font-weight: bold;
+}
+
+.row {
+	background-color: gray;
+	text-align: justify-all;
+	padding: 10px;
+}
+.row h2 {
+	text-align: center;
+	font-weight: bold;
+}
+.row p {
+	text-align: justify;
+}
+  /* Home Page */
+.container {
+    margin-top: 0px;
+    padding: 0px;
+}
+#main-content {
+
+}
+#collapsable-nav {
+	color: black;
+	font-weight: bold;
+}
+@media (min-width: 1200px) {
+	.navbar-toggle{
+		display: none;
+	}
+	#collapsable-nav {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+    .navbar-toggle{
+    	display: none;
+    }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+*@media (max-width: 767px) {
+	.navbar-toggle{
+    	display: none;
+    }
+	.navbar-header div {
+		width: 80%;
+		padding-right: 5px;
+	}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+		.navbar-header {
+		width: 110%
+	}
+	.container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		
+}
